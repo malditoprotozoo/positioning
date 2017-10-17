@@ -1,11 +1,14 @@
 body {
+	max-width: 1180px;
+	width: 98%;
+	margin: auto;
 }
 
 h1, h2 {
 	font-family: "Ubuntu", sans-serif;
 }
 
-p {
+p, h4 {
 	font-family: "Ubuntu Condensed", sans-serif;
 }
 
@@ -90,4 +93,15 @@ code {
 	height: 75px;
 	position: absolute;
 	background-color: black;
+}
+
+#name {
+	display: inline-block;
+	padding: 0;
+}
+
+#institution {
+	display: inline-block;
+	padding: 0;
+	background-color: #F9A91A;
 }
