@@ -1,0 +1,93 @@
+body {
+}
+
+h1, h2 {
+	font-family: "Ubuntu", sans-serif;
+}
+
+p {
+	font-family: "Ubuntu Condensed", sans-serif;
+}
+
+code {
+	font-family: "Ubuntu Mono", monospace;
+	color: darkred;
+	background-color: #D3D7CF;
+}
+
+#cuadro-uno, #cuadro-dos {
+	height: 300px;
+	width: 300px;
+	background-image: url("../img/image.png");
+	background-repeat: no-repeat;
+}
+
+#cuadro-uno {
+	display: inline-block;
+	background-position: -9px -7px;
+}
+
+#cuadro-dos {
+	display: inline-block;
+	background-position: -9px -321px;
+}
+
+#container {
+	width: 605px;
+	height: 300px;
+	position: relative;
+}
+
+.red {
+	width: 300px;
+	height: 300px;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.purple {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	background-color: purple;
+	margin: auto;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.yellow {
+	width: 50%;
+	height: 50%;
+	background-color: yellow;
+}
+
+.blue {
+	width: 300px;
+	height: 300px;
+	background-color: blue;
+	position: absolute;
+	right: 0;
+}
+
+.green {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	background-color: green;
+	margin: auto;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.black {
+	width: 75px;
+	height: 75px;
+	position: absolute;
+	background-color: black;
+}
